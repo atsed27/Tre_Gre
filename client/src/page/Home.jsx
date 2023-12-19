@@ -13,7 +13,7 @@ function Home() {
     try {
       dispatch(searchStart());
       const res = await axios.post(
-        'https://tre-gre.vercel.app/api/jobs/search',
+        'https://tre-gre-az7p.onrender.com/api/jobs/search',
         {
           title: search,
         }

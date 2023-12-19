@@ -14,7 +14,7 @@ function Jop() {
     const getCreator = () => {
       jobs.map(async (job) => {
         const res = await axios.get(
-          `https://tre-gre.vercel.app/api/jobs/creator/${job.userId}`
+          `https://tre-gre-az7p.onrender.com/api/jobs/creator/${job.userId}`
         );
         setCreatorJob(res.data);
       });

@@ -17,7 +17,7 @@ function JobDetails() {
     const jobs = async () => {
       try {
         const res = await axios.get(
-          `https://tre-gre.vercel.app/api/jobs/${id}`
+          `https://tre-gre-az7p.onrender.com/api/jobs/${id}`
         );
 
         setJob(res.data);
@@ -30,7 +30,7 @@ function JobDetails() {
   useEffect(() => {
     const getCreator = async () => {
       const res = await axios.get(
-        `https://tre-gre.vercel.app/api/jobs/creator/${Job.userId}`
+        `https://tre-gre-az7p.onrender.com/api/jobs/creator/${Job.userId}`
       );
 
       setCreatorJob(res.data);
