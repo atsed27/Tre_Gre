@@ -92,7 +92,7 @@ export const Search = async (req, res, next) => {
       title: { $regex: req.body.title, $options: 'i' },
     }).limit(40);
     if (Jobs.length === 0) return next(CreateError(404, 'Job is not Found'));
-    res.status(200).json('ok');
+    res.status(200).json(Jobs);
   } catch (error) {
     next(error);
   }
