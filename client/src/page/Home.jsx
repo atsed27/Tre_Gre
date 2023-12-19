@@ -73,12 +73,7 @@ function Home() {
 
         <div className="grid grid-cols-2 gap-4 my-3 md:grid-cols-4 lg:grid-cols-5 md:7 lg:my-12">
           <div className="bg-gray-200 border rounded-full">
-            <button className="p-1 text-xs font-semibold text-center  md:text-base md:p-2">
-              work from Home
-            </button>
-          </div>
-          <div className="bg-gray-200 border rounded-full">
-            <p className="p-1 text-xs font-semibold text-center  md:text-base md:p-2">
+            <p className="p-1 text-sm font-semibold text-center  md:text-base md:p-2">
               work from Home
             </p>
           </div>
@@ -88,42 +83,47 @@ function Home() {
             </p>
           </div>
           <div className="bg-gray-200 border rounded-full">
-            <p className="p-1 text-xs font-semibold text-center  md:text-base md:p-2">
+            <p className="p-1 text-sm font-semibold text-center  md:text-base md:p-2">
               work from Home
             </p>
           </div>
           <div className="bg-gray-200 border rounded-full">
-            <p className="p-1 text-xs font-semibold text-center  md:text-base md:p-2">
+            <p className="p-1 text-sm font-semibold text-center  md:text-base md:p-2">
               work from Home
             </p>
           </div>
           <div className="bg-gray-200 border rounded-full">
-            <p className="p-1 text-xs font-semibold text-center  md:text-base md:p-2">
+            <p className="p-1 text-sm font-semibold text-center  md:text-base md:p-2">
               work from Home
             </p>
           </div>
           <div className="bg-gray-200 border rounded-full">
-            <p className="p-1 text-xs font-semibold text-center  md:text-base md:p-2">
+            <p className="p-1 text-sm font-semibold text-center  md:text-base md:p-2">
               work from Home
             </p>
           </div>
           <div className="bg-gray-200 border rounded-full">
-            <p className="p-1 text-xs font-semibold text-center  md:text-base md:p-2">
+            <p className="p-1 text-sm font-semibold text-center  md:text-base md:p-2">
               work from Home
             </p>
           </div>
           <div className="bg-gray-200 border rounded-full">
-            <p className="p-1 text-xs font-semibold text-center  md:text-base md:p-2">
+            <p className="p-1 text-sm font-semibold text-center  md:text-base md:p-2">
               work from Home
             </p>
           </div>
           <div className="bg-gray-200 border rounded-full">
-            <p className="p-1 text-xs font-semibold text-center  md:text-base md:p-2">
+            <p className="p-1 text-sm font-semibold text-center  md:text-base md:p-2">
               work from Home
             </p>
           </div>
           <div className="bg-gray-200 border rounded-full">
-            <p className="p-1 text-xs font-semibold text-center  md:text-base md:p-2">
+            <p className="p-1 text-sm font-semibold text-center  md:text-base md:p-2">
+              work from Home
+            </p>
+          </div>
+          <div className="bg-gray-200 border rounded-full">
+            <p className="p-1 text-sm font-semibold text-center  md:text-base md:p-2">
               work from Home
             </p>
           </div>
