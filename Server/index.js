@@ -12,6 +12,11 @@ const app = express();
 //dotenv config
 dotenv.config();
 
+
+app.get('/', async (req, res) => {
+  res.send('server is deploy');
+});
+
 // mongo db connection
 const connect = () => {
   mongoose
