@@ -13,11 +13,14 @@ function Register() {
   console.log(location);
   const submitHandler = async ({ fullName, email, password }) => {
     try {
-      const res = await axios.post('http://localhost:4444/api/auth/signup', {
-        fullName,
-        email,
-        password,
-      });
+      const res = await axios.post(
+        'https://tre-gre-az7p.onrender.com/api/auth/signup',
+        {
+          fullName,
+          email,
+          password,
+        }
+      );
       console.log(res);
     } catch (error) {
       console.log(error);

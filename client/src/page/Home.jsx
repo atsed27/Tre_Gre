@@ -50,6 +50,7 @@ function Home() {
               <input
                 className="w-full rounded-lg  bg-gray-200 p-3 border"
                 placeholder="Put location"
+                value=""
               />
             </div>
 
