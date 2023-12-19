@@ -16,7 +16,9 @@ function JobDetails() {
   useEffect(() => {
     const jobs = async () => {
       try {
-        const res = await axios.get(`http://localhost:4444/api/jobs/${id}`);
+        const res = await axios.get(
+          `https://tre-gre.vercel.app/api/jobs/${id}`
+        );
 
         setJob(res.data);
       } catch (error) {
@@ -28,7 +30,7 @@ function JobDetails() {
   useEffect(() => {
     const getCreator = async () => {
       const res = await axios.get(
-        `http://localhost:4444/api/jobs/creator/${Job.userId}`
+        `https://tre-gre.vercel.app/api/jobs/creator/${Job.userId}`
       );
 
       setCreatorJob(res.data);

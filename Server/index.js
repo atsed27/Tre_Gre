@@ -12,7 +12,6 @@ const app = express();
 //dotenv config
 dotenv.config();
 
-
 app.get('/', async (req, res) => {
   res.send('server is deploy');
 });
@@ -33,7 +32,7 @@ const connect = () => {
 
 app.use(
   cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://tre-gre.vercel.app',
     credentials: true,
   })
 );

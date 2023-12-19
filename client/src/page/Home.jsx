@@ -12,9 +12,12 @@ function Home() {
   const handleSearch = async () => {
     try {
       dispatch(searchStart());
-      const res = await axios.post('http://localhost:4444/api/jobs/search', {
-        title: search,
-      });
+      const res = await axios.post(
+        'https://tre-gre.vercel.app/api/jobs/search',
+        {
+          title: search,
+        }
+      );
       console.log(res);
       dispatch(searchSuccess(res.data));
       navigate('/job');
