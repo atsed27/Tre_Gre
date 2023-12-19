@@ -57,7 +57,7 @@ function Jop() {
                     <p>Posted 12 day ago</p>
                   </div>
                   <div className="flex items-center justify-between">
-                    <div>
+                    <div className="w-1/2">
                       <p>Mela mela</p>
                       <p className="hidden md:flex">
                         $40000 to $45000 per annual
