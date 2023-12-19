@@ -98,7 +98,7 @@ function Register() {
             />
           </div>
           <div className="">
-            <button className="bg-yellow-400">Login</button>
+            <button className="bg-yellow-400">Sign Up</button>
           </div>
           <div className="">
             Do have an account? &nbsp;
