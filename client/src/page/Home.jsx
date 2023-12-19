@@ -39,11 +39,11 @@ function Home() {
             </h2>
           </div>
           <div className="items-center justify-center w-full m-auto lg:my-20 md:flex ">
-            <div className="m-4 border">
+            <div className="m-4 ">
               <input
                 onChange={(e) => setSearch(e.target.value)}
                 className="w-full  rounded-lg  bg-gray-200 p-3 border "
-                placeholder="Job title or keyword"
+                placeholder=" Put Job title or keyword"
               />
             </div>
             <div className="m-4">
