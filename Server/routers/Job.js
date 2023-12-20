@@ -20,7 +20,7 @@ router.get('/:id', getJob);
 ///get job creator use
 router.get('/creator/:id', getCreator);
 
-router.post('/create', verifyToken, CreateJob);
+router.post('/create', CreateJob);
 
 router.put('/update/:id', verifyToken, updateJob);
 
