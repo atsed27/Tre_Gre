@@ -38,7 +38,7 @@ function Layout({ children, title }) {
           <div className="container hidden mx-auto md:flex">
             <a>
               <h2 className="text-2xl font-extrabold md:mx-4 hover:cursor-pointer ">
-                <Link to="/">ጥረ_ግረ</Link>
+                ጥረ_ግረ
               </h2>
             </a>
             <h2 className="hidden mx-4 text-lg md:flex">Job Seekers</h2>
@@ -214,7 +214,7 @@ function Layout({ children, title }) {
             >
               <div className="flex items-center justify-between">
                 <h2 className="font-mono text-xl font-semibold ">
-                  <Link to="/">ጥረ_ግረ</Link>
+                  ጥረ_ግረ
                 </h2>
                 <div
                   onClick={navHandle}
