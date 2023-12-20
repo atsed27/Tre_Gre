@@ -17,10 +17,13 @@ function Login() {
   const submitHandler = async ({ email, password }) => {
     try {
       dispatch(loginStart());
-      const res = await axios.post('http://localhost:4444/api/auth/signin', {
-        email,
-        password,
-      });
+      const res = await axios.post(
+        'https://tre-gre-az7p.onrender.com/api/auth/signin',
+        {
+          email,
+          password,
+        }
+      );
       dispatch(loginSuccess(res.data));
       navigation('/');
     } catch (error) {
