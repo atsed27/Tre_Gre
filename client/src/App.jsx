@@ -18,7 +18,7 @@ export default function App() {
       <Routes>
         <Route path="/">
           <Route index element={<Home />} />
-          <Route path="signin" element={<Login />} />
+          <Route path="/signin" element={<Login />} />
           <Route path="signup" element={<Register />} />
           <Route path="profile" element={<Profile />} />
           <Route path="job" element={<Jop />} />
