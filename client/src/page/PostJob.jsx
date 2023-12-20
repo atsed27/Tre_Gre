@@ -20,15 +20,18 @@ function PostJob() {
     formState: { errors },
   } = useForm();
   const submitHandler = async () => {
-    const res = await axios.post('http://localhost:4444/api/jobs/create', {
-      title,
-      salary,
-      workTime,
-      desc,
-      type,
-      workPlace,
-      role,
-    });
+    const res = await axios.post(
+      'https://tre-gre-az7p.onrender.com/api/jobs/create',
+      {
+        title,
+        salary,
+        workTime,
+        desc,
+        type,
+        workPlace,
+        role,
+      }
+    );
     console.log(res);
   };
   return (
